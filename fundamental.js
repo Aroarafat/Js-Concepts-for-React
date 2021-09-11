@@ -66,21 +66,21 @@ console.log(output)
 // 6. Object
 // Three ways to access property by name 
 
-const student = {
+const actor = {
     name: 'Fazlur Rahman Babu Sir',
-    age: 32,
+    age: 45,
     movies: ['Daruchini Dip', 'Monpura']
 }
 
 //  OUTPUT SHOWN BY THIS WAY 
-const student1 = student.name;
-console.log(student1)
+const actor1 = actor.name;
+console.log(actor1)
 
-const student2 = student.age;
-console.log(student2)
+const actor2 = actor.age;
+console.log(actor2)
 
-const student3 = student.movies;
-console.log(student3)
+const actor3 = actor.movies;
+console.log(actor3)
 
 // OR YOU CAN SHOW OUTPUT BY THIS WAY 
 const student = {
