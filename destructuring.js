@@ -58,8 +58,11 @@ const employee = {
     }
 }
 const { machine, ide } = employee;
+// console.log(machine, ide)
 const { weight, address } = employee.specification;
+// console.log(weight, address)
 const { brand } = employee?.specification?.watch;
+// console.log(brand)
 
 
 
