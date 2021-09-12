@@ -15,5 +15,20 @@ const nobab = {
     name: name,
     area: area
 }
-
 const nobab2 = { name, area };
+console.log(nobab2)
+
+// or
+const name = 'Hero';
+const age = 34;
+const person = { name, age };
+console.log(person);
+
+// or 
+const adventurer = { name: 'Alice', cat: { name: 'Lucy' } };
+const ratName = adventurer?.rat?.name;
+console.log(ratName)
+
+// or
+let person = null;
+console.log(person ? person : "person is null");

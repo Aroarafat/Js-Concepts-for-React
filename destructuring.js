@@ -65,4 +65,6 @@ const { brand } = employee?.specification?.watch;
 // console.log(brand)
 
 
-
+// or 
+const obj = { a: 1 };
+console.log(Object.keys(obj).length === 0);
